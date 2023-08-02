@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fun Weather</title>
+
+    <meta name="title" content="Fun Weather" />
+    <meta
+      name="description"
+      content="fun weather app is an easy way to find out what the weather will be like today or tomorrow."
+    />
+    <meta
+      name="keywords"
+      content="fun, weather, app, cloud, sun, rain, city, map, fog"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="1 days" />
+    <meta name="author" content="gmsakibursabbir" />
+
+    <!-- favcon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/fav/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/fav/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/fav/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/fav/site.webmanifest" />
+    <link rel="manifest" href="images/fav/site.webmanifest" />
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- our project just needs Font Awesome Solid + Brands -->
+    <link href="assets/css/all.min.css" rel="stylesheet" />
+    <link href="assets/css/fontawesome.min.css" rel="stylesheet" />
+    <link href="assets/css/solid.min.css" rel="stylesheet" />
+
+    <!-- bootstrap link  -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- Locomotive link -->
+    <link rel="stylesheet" href="css/loco.css" />
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- media link  -->
+    <link rel="stylesheet" href="css/media.css" />
+
+    <script
+      src="https://kit.fontawesome.com/386ddf576b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="main">
+      <!-- header start -->
+      <header>
+        <nav class="navbar navbar-expand-lg c_nav">
+          <div class="container">
+            <!-- logo start -->
+            <a class="navbar-brand logo" href="#">Fun Weather.</a>
+            <!-- logo end -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#nav_custom"
+              aria-controls="nav_custom"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- menu start -->
+            <div class="collapse navbar-collapse menu" id="nav_custom">
+              <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="home" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Reviews</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Download</a>
+                </li>
+              </ul>
+              <!-- social-nav start -->
+              <div class="socil_nav d-none d-lg-block">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"
+                      ><i class="fa-brands fa-square-facebook"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"
+                      ><i class="fa-brands fa-instagram"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"
+                      ><i class="fa-brands fa-twitter"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+              <!-- social-nav end -->
+            </div>
+            <!-- menu end -->
+          </div>
+        </nav>
+      </header>
+      <!-- header end -->
+
+      <!-- banner start -->
+      <section class="banner">
+        <div class="container">
+          <div class="row">
+            <!-- b_text -->
+            <div class="col-lg-6 order-lg-1 order-sm-2 order-2">
+              <div class="b_text">
+                <h1 class="mb-0">Get the most fun weather app</h1>
+                <p>
+                  Simple, nice and user-friendly application of the weather.
+                  Only useful information
+                </p>
+                <div class="btn_grp">
+                  <button
+                    type="button"
+                    onclick="location.href='pages/404.html'"
+                    class="btn b_btn_1"
+                  >
+                    Download
+                  </button>
+                  <button
+                    type="button"
+                    onclick="location.href='pages/404.html'"
+                    class="btn b_btn_2"
+                  >
+                    Features
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- b_img -->
+            <div class="col-lg-6 order-lg-2 order-1">
+              <div class="b_img text-center">
+                <img
+                  src="images/banner2.png"
+                  class="img-fluid"
+                  alt="fun-weather"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-12 text-center">
+              <a id="myButton" class="b_point" href="#myDiv"
+                ><i class="fa-solid fa-angle-down"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- banner end -->
+
+      <!-- perfect start -->
+      <section class="pf">
+        <div id="myDiv" class="container">
+          <!-- common title -->
+          <div class="row justify-content-center">
+            <div class="com_title pft_custom text-center">
+              <h2 class="mb-0">Perfect Features</h2>
+              <p>Only necessary</p>
+            </div>
+          </div>
+          <!-- perfect content -->
+          <div class="row">
+            <!-- pf content single 1 -->
+            <div class="col-lg-4">
+              <div class="pf_con">
+                <div class="row">
+                  <div class="col-lg-3">
+                    <div class="pf_icon">
+                      <img
+                        src="images/icon/diamon.png"
+                        class="img-fluid"
+                        alt="fun-weather"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-9">
+                    <div class="pf_content">
+                      <h2>Usability</h2>
+                      <p>
+                        Sometimes the simplest things are the hardest to find.
+                        So we created a new line for everyday life
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- pf content single 2 -->
+            <div class="col-lg-4">
+              <div class="pf_con">
+                <div class="row">
+                  <div class="col-lg-3">
+                    <div class="pf_icon">
+                      <img
+                        src="images/icon/layer.png"
+                        class="img-fluid"
+                        alt="fun-weather"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-9">
+                    <div class="pf_content">
+                      <h2>Parallax Effect</h2>
+                      <p>
+                        Sometimes the simplest things are the hardest to find.
+                        So we created a new line for everyday life
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- pf content single 3 -->
+            <div class="col-lg-4">
+              <div class="pf_con">
+                <div class="row">
+                  <div class="col-lg-3">
+                    <div class="pf_icon">
+                      <img
+                        src="images/icon/drop.png"
+                        class="img-fluid"
+                        alt="fun-weather"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-9">
+                    <div class="pf_content">
+                      <h2>Unlimites Colors</h2>
+                      <p>
+                        Sometimes the simplest things are the hardest to find.
+                        So we created a new line for everyday life
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- perfect end -->
+
+      <!-- simple start -->
+      <section class="smpl">
+        <div class="container">
+          <!-- common title -->
+          <div class="row justify-content-center">
+            <div class="com_title pft_custom text-center">
+              <h2 class="mb-0">Simple widgets</h2>
+              <p>Drag and Drop</p>
+            </div>
+          </div>
+          <!-- slider start -->
+          <div class="row">
+            <div class="col-lg-12">
+              <div
+                id="car_smpl"
+                class="carousel slide cus_slider"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner smp_car">
+                  <div class="carousel-item active">
+                    <img
+                      src="images/slider.png"
+                      class="d-block w-100 img-fluid"
+                      alt="slider"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="images/slider.png"
+                      class="d-block w-100 img-fluid"
+                      alt="slider"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="images/slider.png"
+                      class="d-block w-100 img-fluid"
+                      alt="slider"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev smpb"
+                  type="button"
+                  data-bs-target="#car_smpl"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon smpb_prev"
+                    aria-hidden="true"
+                    ><i class="fa-solid fa-angle-left"></i
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next smpb"
+                  type="button"
+                  data-bs-target="#car_smpl"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon smpb_next"
+                    aria-hidden="true"
+                    ><i class="fa-solid fa-angle-right"></i
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- slider end -->
+        </div>
+      </section>
+      <!-- simple end -->
+
+      <!-- screen-short start -->
+      <section class="ss">
+        <div class="container">
+          <!-- common title -->
+          <div class="row justify-content-center">
+            <div class="com_title pft_custom text-center">
+              <h2 class="mb-0">Screenshots</h2>
+              <p>The brightest images</p>
+            </div>
+          </div>
+          <!-- ss list start here 1 -->
+          <div class="row ss_cover">
+            <!-- ss image -->
+            <div class="col-lg-5 d-none d-lg-block">
+              <div class="ss_img">
+                <img src="images/cloudy.png" class="img-fluid" alt="cloudy" />
+              </div>
+            </div>
+            <!-- ss text -->
+            <div class="col-lg-7 col-md-12">
+              <div class="ss_text">
+                <img
+                  src="images/icon/cloudy-icon.png"
+                  class="img-fluid ss_text_top"
+                  alt="cloudy"
+                />
+                <h2 class="mb-0">When the clouds</h2>
+                <p>
+                  Variable information on the air humidity, the feeling of the
+                  weather, and the ability to share this with your friends
+                </p>
+                <img
+                  src="images/masures.png"
+                  class="img_fluid ss_text_bt"
+                  alt="masures"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- ss list start here 2 -->
+          <div class="row ss_cover">
+            <!-- ss text -->
+            <div class="col-lg-7 col-md-12">
+              <div class="ss_text">
+                <img
+                  src="images/icon/sunny-icon.png"
+                  class="img-fluid ss_text_top"
+                  alt="cloudy"
+                />
+                <h2 class="mb-0">When the sun</h2>
+                <p>
+                  Variable information on the air humidity, the feeling of the
+                  weather, and the ability to share this with your friends
+                </p>
+                <img
+                  src="images/masures.png"
+                  class="img_fluid ss_text_bt"
+                  alt="masures"
+                />
+              </div>
+            </div>
+            <!-- ss image -->
+            <div class="col-lg-5 d-none d-lg-block">
+              <div class="ss_img">
+                <img src="images/sunny.png" class="img-fluid" alt="cloudy" />
+              </div>
+            </div>
+          </div>
+          <!-- ss list start here 3 -->
+          <div class="row ss_cover">
+            <!-- ss image -->
+            <div class="col-lg-5 d-none d-lg-block">
+              <div class="ss_img">
+                <img src="images/rainy.png" class="img-fluid" alt="cloudy" />
+              </div>
+            </div>
+            <!-- ss text -->
+            <div class="col-lg-7 col-md-12">
+              <div class="ss_text">
+                <img
+                  src="images/icon/rainy-icon.png"
+                  class="img-fluid ss_text_top"
+                  alt="cloudy"
+                />
+                <h2 class="mb-0">When the rain</h2>
+                <p>
+                  Variable information on the air humidity, the feeling of the
+                  weather, and the ability to share this with your friends
+                </p>
+                <img
+                  src="images/masures.png"
+                  class="img_fluid ss_text_bt"
+                  alt="masures"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- screen-short end -->
+
+      <!-- people start -->
+      <section class="ppl">
+        <div class="container">
+          <!-- common title -->
+          <div class="row justify-content-center">
+            <div class="com_title pft_custom text-center">
+              <h2 class="mb-0">Screenshots</h2>
+              <p>The brightest images</p>
+            </div>
+          </div>
+          <!-- testimonial -->
+          <div class="row">
+            <!-- single 1 -->
+            <div class="col-lg-6 col-sm-12">
+              <div class="testy">
+                <div class="tt_tp">
+                  <i class="fa-solid fa-quote-left"></i>
+                </div>
+                <h3 class="mb-0">
+                  What art offers is space - a certain breathing room for the
+                  spirit.
+                </h3>
+                <p class="mb-0">John Updike</p>
+                <div class="tt_tp text-end">
+                  <i class="fa-solid fa-quote-right"></i>
+                </div>
+              </div>
+            </div>
+            <!-- single 2 -->
+            <div class="col-lg-6 col-sm-12">
+              <div class="testy">
+                <div class="tt_tp">
+                  <i class="fa-solid fa-quote-left"></i>
+                </div>
+                <h3 class="mb-0">
+                  What art offers is space - a certain breathing room for the
+                  spirit.
+                </h3>
+                <p class="mb-0">John Updike</p>
+                <div class="tt_tp text-end">
+                  <i class="fa-solid fa-quote-right"></i>
+                </div>
+              </div>
+            </div>
+            <!-- single 3 -->
+            <div class="col-lg-6 col-sm-12">
+              <div class="testy">
+                <div class="tt_tp">
+                  <i class="fa-solid fa-quote-left"></i>
+                </div>
+                <h3 class="mb-0">
+                  What art offers is space - a certain breathing room for the
+                  spirit.
+                </h3>
+                <p class="mb-0">John Updike</p>
+                <div class="tt_tp text-end">
+                  <i class="fa-solid fa-quote-right"></i>
+                </div>
+              </div>
+            </div>
+            <!-- single 4 -->
+            <div class="col-lg-6 col-sm-12">
+              <div class="testy">
+                <div class="tt_tp">
+                  <i class="fa-solid fa-quote-left"></i>
+                </div>
+                <h3 class="mb-0">
+                  What art offers is space - a certain breathing room for the
+                  spirit.
+                </h3>
+                <p class="mb-0">John Updike</p>
+                <div class="tt_tp text-end">
+                  <i class="fa-solid fa-quote-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- people end -->
+
+      <!-- download start -->
+      <section class="dl">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <div class="dl_content">
+                <h2 class="mb-0">How Download the app?</h2>
+                <p>
+                  Just download the app from the store. Simple, nice and
+                  user-friendly application of theweather. Only relevant and
+                  useful information.
+                </p>
+                <div class="dl_store">
+                  <a href="pages/404.html"
+                    ><img
+                      src="images/googleplay.png"
+                      class="img_fluid"
+                      alt="googleplay"
+                  /></a>
+                  <a href="pages/404.html"
+                    ><img
+                      src="images/appstore.png"
+                      class="img_fluid"
+                      alt="appstore"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- download end -->
+
+      <!-- footer start -->
+      <footer>
+        <!-- top ft -->
+        <div class="container">
+          <!-- top -->
+          <div class="row tp_ft">
+            <div class="col-lg-3 col-md-12">
+              <div class="tp_ft_logo text-center">
+                <a href="index.html">Fun <span>weather.</span></a>
+              </div>
+            </div>
+            <div class="col-lg-7 col-md-12">
+              <div class="tp_ft_text m-auto text-center">
+                <a href="#">Home</a>
+                <a href="#">Features</a>
+                <a href="#">Reviews</a>
+                <a href="#">Download</a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-12">
+              <div class="tp_ft_icon text-center">
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- line -->
+          <div class="row justify-content-center">
+            <div class="col-lg-12">
+              <div class="h_line"></div>
+              <div class="line text-center">
+                <a href="https://gmsakibur.com/" target="_blank"
+                  >© 2022 All rights reserved. developed by gmsakibursabbir</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- footer end -->
+
+    <!-- ==JavaScript start here==  -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

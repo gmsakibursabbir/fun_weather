@@ -1,0 +1,406 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  /* header start */
+  .menu ul li a {
+    font-size: 16px;
+    padding: 6px 0px !important;
+  }
+  /* header end */
+
+  /* banner start */
+  .banner {
+    padding: 70px 0 60px;
+  }
+  .b_text {
+    padding-top: 80px;
+  }
+  .b_text h1 {
+    font-size: 32px;
+  }
+  .b_text p {
+    padding: 30px 0 !important;
+    margin-right: 0 !important;
+  }
+  .b_img img {
+    width: 100%;
+  }
+
+  .b_point {
+    padding-top: 50px !important;
+  }
+  .btn_grp {
+    padding-bottom: 30px;
+  }
+  .b_btn_1 {
+    font-size: 16px;
+    padding: 10px 25px;
+  }
+  .b_btn_2 {
+    font-size: 16px;
+    padding: 10px 25px;
+  }
+  /* banner end */
+  /* perfect start */
+  .pf {
+    margin: 100px 0;
+  }
+  .com_title h2 {
+    font-size: 27px;
+  }
+  .com_title p {
+    padding-top: 18px;
+  }
+  .pf {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .pf_con {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .pf_icon {
+    text-align: center;
+  }
+
+  .pf_icon img {
+    width: 25%;
+  }
+  .pf_content {
+    padding-top: 30px;
+  }
+  .pf_content h2 {
+    text-align: center;
+  }
+
+  .pf_content p {
+    font-weight: 400;
+    color: #aeaeae;
+    line-height: 30px;
+    text-align: center;
+  }
+  /* perfect end */
+  /* simple start */
+  .smp_car {
+    width: 80%;
+    margin-left: 32px;
+  }
+  /* simple end */
+  /* screen-short start */
+  .ss_cover {
+    padding-top: 0;
+  }
+  .ss_text_top {
+    padding-bottom: 35px;
+  }
+  .ss_text {
+    padding-top: 60px;
+    text-align: center;
+  }
+  .ss_text h2 {
+    font-size: 25px;
+  }
+
+  .ss_text p {
+    font-size: 18px;
+    padding: 18px 15px 0px 15px;
+  }
+  /* screen-short end */
+  /* people start */
+  .ppl {
+    padding: 10px;
+  }
+  .tt_tp i {
+    font-size: 35px;
+  }
+  /* people end */
+  /* download start */
+  .dl {
+    padding: 120px 0;
+  }
+  .dl_content h2 {
+    font-size: 30px;
+  }
+  /* download end */
+  /* footer start */
+  .tp_ft_text {
+    text-align: center;
+    padding: 30px 0;
+  }
+
+  .tp_ft_text a {
+    padding: 0 17px;
+  }
+  /* footer end */
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* header start */
+  .menu ul li a {
+    font-size: 16px;
+    padding: 6px 0px !important;
+  }
+  /* header end */
+
+  /* banner start */
+  .banner {
+    padding: 70px 0 60px;
+  }
+  .b_text {
+    padding-top: 80px;
+  }
+  .b_text h1 {
+    font-size: 55px;
+  }
+  .b_text p {
+    padding: 40px 0 !important;
+    margin-right: 195px !important;
+  }
+  .b_img img {
+    width: 60%;
+  }
+
+  .btn_grp {
+    padding-bottom: 30px;
+  }
+
+  .b_point {
+    padding-top: 70px;
+  }
+  /* banner end */
+
+  /* perfect start */
+  .pf {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .pf_con {
+    padding-top: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .pf_icon {
+    text-align: center;
+  }
+  .pf_icon img {
+    width: 25%;
+  }
+  .pf_content {
+    padding-top: 30px;
+  }
+  .pf_content h2 {
+    text-align: center;
+  }
+
+  .pf_content p {
+    font-weight: 400;
+    color: #aeaeae;
+    line-height: 30px;
+    text-align: center;
+  }
+  /* perfect end */
+  /* simple start */
+  .smp_car {
+    width: 80%;
+    margin-left: 52px;
+  }
+  /* simple end */
+  /* screen-short start */
+  .ss_cover {
+    padding-top: 0;
+  }
+  .ss_text_top {
+    padding-bottom: 35px;
+  }
+  .ss_text {
+    padding-top: 80px;
+    text-align: center;
+  }
+
+  .ss_text p {
+    padding: 40px 50px 20px 50px;
+  }
+  /* screen-short end */
+  /* people start */
+  .ppl {
+    padding: 30px;
+  }
+  .tt_tp i {
+    font-size: 45px;
+  }
+  /* people end */
+
+  /* download start */
+  .dl {
+    padding: 120px 0;
+  }
+  .dl_content h2 {
+    font-size: 30px;
+  }
+  /* download end */
+
+  /* footer start */
+  .tp_ft_text {
+    text-align: center;
+    padding: 40px 0;
+  }
+  /* footer end */
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* header start */
+  .menu ul li a {
+    font-size: 16px;
+    padding: 8px 0px !important;
+  }
+  /* header end */
+  /* banner start */
+  .banner {
+    padding: 80px 0 60px;
+  }
+  .b_text {
+    padding-top: 105px;
+  }
+  .b_text h1 {
+    font-size: 60px;
+  }
+  .b_text p {
+    padding: 40px 0;
+    margin-right: 195px !important;
+  }
+  .b_img img {
+    width: 60%;
+  }
+  .btn_grp {
+    padding-bottom: 40px;
+  }
+  .b_point {
+    padding-top: 70px;
+  }
+  /* banner end */
+
+  /* perfect start */
+  .pf {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  .pf_con {
+    padding-top: 90px;
+  }
+
+  .pf_icon {
+    text-align: center;
+  }
+  .pf_content {
+    padding-top: 30px;
+  }
+  .pf_content h2 {
+    text-align: center;
+  }
+
+  .pf_content p {
+    font-weight: 400;
+    color: #aeaeae;
+    line-height: 30px;
+    text-align: center;
+  }
+  /* perfect end */
+  /* simple start */
+  .smp_car {
+    width: 70%;
+    margin-left: 112px;
+  }
+  /* simple end */
+  /* screen-short start */
+  .ss_cover {
+    padding-top: 0;
+  }
+  .ss_text {
+    padding-top: 100px;
+    text-align: center;
+  }
+
+  .ss_text h2 {
+    font-size: 30px;
+  }
+
+  .ss_text p {
+    padding: 40px 50px 20px 50px;
+  }
+  /* screen-short end */
+
+  /* people start */
+  .ppl {
+    padding: 40px;
+  }
+  .tt_tp i {
+    font-size: 55px;
+  }
+  /* people end */
+
+  /* footer start */
+  .tp_ft_text {
+    text-align: center;
+    padding: 40px 0;
+  }
+  /* footer end */
+}
+
+/*Large devices (desktops, Laptop, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* banner start */
+  .banner {
+    padding: 100px 0 60px;
+  }
+  .b_text {
+    padding-top: 105px;
+  }
+  .b_text h1 {
+    font-size: 54px;
+  }
+  .b_text p {
+    margin-right: 0px;
+  }
+
+  .btn_grp {
+    padding-bottom: 40px;
+  }
+
+  /* banner end */
+
+  /* simple start */
+  .smp_car {
+    width: 65%;
+    margin-left: 169px !important;
+  }
+  /* simple end */
+
+  /* people start */
+  .tt_tp i {
+    font-size: 55px;
+  }
+  /* people end */
+
+  /* footer start */
+
+  .tp_ft_icon a {
+    padding: 0 10px;
+  }
+  .tp_ft_icon a i {
+    padding: 0px 0px;
+  }
+  /* footer end */
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+
+/*Extra extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+}

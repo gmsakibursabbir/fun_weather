@@ -1,0 +1,35 @@
+/* body start */
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* body end */
+
+/* main start */
+.main {
+}
+.main h1 {
+  color: #fc6a42;
+}
+
+span {
+  color: #fc6a42;
+}
+
+.custom-btn {
+  margin: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #fc6a42;
+  padding: 15px 40px;
+  color: #ffffff;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.custom-btn:hover {
+  background-color: transparent;
+  color: #000000;
+}
+/* main end */
